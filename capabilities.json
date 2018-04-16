@@ -1,0 +1,34 @@
+{
+    "dataRoles": [
+    {
+        "displayName": "Longitude",
+        "name": "lng",
+        "kind": "Grouping"
+    },
+    {
+        "displayName": "Latitude",
+        "name": "lat",
+        "kind": "Grouping"
+    },
+    {
+        "displayName": "Jobs",
+        "name": "jobs",
+        "kind": "Grouping"
+    }
+],
+    
+"dataViewMappings": [{
+    "categorical": {
+        "categories": {
+            "for": { "in": "lng" }
+        },
+        "values": {
+            "select": [
+                { "bind": { "to": "lat" } },
+                { "bind": { "to": "jobs" } }
+            ]
+        }
+    }
+}],
+"advancedEditModeSupport": 2
+}

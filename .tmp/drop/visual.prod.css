@@ -1,0 +1,260 @@
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-box {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 2px solid #00f;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-mouse-position {
+  top: 8px;
+  right: 8px;
+  position: absolute;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-scale-line {
+  background: rgba(0, 60, 136, 0.3);
+  border-radius: 4px;
+  bottom: 8px;
+  left: 8px;
+  padding: 2px;
+  position: absolute;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-scale-line-inner {
+  border: 1px solid #eee;
+  border-top: none;
+  color: #eee;
+  font-size: 10px;
+  text-align: center;
+  margin: 1px;
+  will-change: contents, width;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overlay-container {
+  will-change: left, right, top, bottom;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-unsupported {
+  display: none;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-unselectable,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-viewport {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-selectable {
+  -webkit-touch-callout: default;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-grab {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 2px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoom {
+  top: .5em;
+  left: 0.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-rotate {
+  top: .5em;
+  right: .5em;
+  transition: opacity 0.25s linear, visibility 0s linear;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-rotate.ol-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s linear, visibility 0s linear 0.25s;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoom-extent {
+  top: 4.643em;
+  left: 0.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-full-screen {
+  right: .5em;
+  top: 0.5em;
+}
+@media print {
+  .visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control {
+    display: none;
+  }
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control button {
+  display: block;
+  margin: 1px;
+  padding: 0;
+  color: #fff;
+  font-size: 1.14em;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  height: 1.375em;
+  width: 1.375em;
+  line-height: .4em;
+  background-color: rgba(0, 60, 136, 0.5);
+  border: none;
+  border-radius: 2px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoom-extent button {
+  line-height: 1.4em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-compass {
+  display: block;
+  font-weight: 400;
+  font-size: 1.2em;
+  will-change: transform;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-touch .ol-control button {
+  font-size: 1.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-touch .ol-zoom-extent {
+  top: 5.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control button:focus,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-control button:hover {
+  text-decoration: none;
+  background-color: rgba(0, 60, 136, 0.7);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoom .ol-zoom-in {
+  border-radius: 2px 2px 0 0;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoom .ol-zoom-out {
+  border-radius: 0 0 2px 2px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution {
+  text-align: right;
+  bottom: .5em;
+  right: .5em;
+  max-width: calc(98.7%);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution ul {
+  margin: 0;
+  padding: 0 .5em;
+  font-size: .7rem;
+  line-height: 1.375em;
+  color: #000;
+  text-shadow: 0 0 2px #fff;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution li {
+  display: inline;
+  list-style: none;
+  line-height: inherit;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution li:not(:last-child):after {
+  content: " ";
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution img {
+  max-height: 2em;
+  max-width: inherit;
+  vertical-align: middle;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution button,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution ul {
+  display: inline-block;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-collapsed ul {
+  display: none;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-logo-only ul {
+  display: block;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution:not(.ol-collapsed) {
+  background: rgba(255, 255, 255, 0.8);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-uncollapsible {
+  bottom: 0;
+  right: 0;
+  border-radius: 4px 0 0;
+  height: 1.1em;
+  line-height: 1em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-logo-only {
+  background: 0 0;
+  bottom: .4em;
+  height: 1.1em;
+  line-height: 1em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-uncollapsible img {
+  margin-top: -0.2em;
+  max-height: 1.6em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-logo-only button,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-attribution.ol-uncollapsible button {
+  display: none;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoomslider {
+  top: 4.5em;
+  left: .5em;
+  height: 200px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-zoomslider button {
+  position: relative;
+  height: 10px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-touch .ol-zoomslider {
+  top: 5.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap {
+  left: .5em;
+  bottom: 0.5em;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap.ol-uncollapsible {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4px 0 0;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap .ol-overviewmap-map,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap button {
+  display: inline-block;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap .ol-overviewmap-map {
+  border: 1px solid #7b98bc;
+  height: 150px;
+  margin: 2px;
+  width: 150px;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap:not(.ol-collapsed) button {
+  bottom: 1px;
+  left: 2px;
+  position: absolute;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap.ol-collapsed .ol-overviewmap-map,
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap.ol-uncollapsible button {
+  display: none;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap:not(.ol-collapsed) {
+  background: rgba(255, 255, 255, 0.8);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap-box {
+  border: 2px dotted rgba(0, 60, 136, 0.7);
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .ol-overviewmap .ol-overviewmap-box:hover {
+  cursor: move;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG .visualTitle {
+  display: none!important;
+}
+.visual-powerbiOl3VizCD46B2BA4997410B9423D41CAF42E3AB_DEBUG #map {
+  width: 100%;
+  height: 100%;
+  border: 1px solid olive;
+}
